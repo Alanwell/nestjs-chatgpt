@@ -23,13 +23,21 @@
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
 ## Description
+### 本项目为基于nestjs搭建的chatgpt工程，需要在.env文件中填入个人的api key。
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+<br>
+
+> [Nest](https://github.com/nestjs/nest) NestJS 是运行在服务端的一个 JS 框架。它运行时是 JavaScript，编程时使用TypeScript, 是结合灵活性、可扩展性的框架。并且结合了面向对象编程(OOP)、函数式编程(FP)和函数响应式编程(FRP)
+
+<br>
+
+> [ChatGPT](https://openai.com/) ChatGPT 是一种基于递归神经网络（RNN）的自然语言处理（NLP）技术，用于模仿人与人之间的对话行为
+
 
 ## Installation
 
 ```bash
-$ yarn install
+$ yarn
 ```
 
 ## Running the app
