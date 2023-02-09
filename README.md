@@ -27,11 +27,10 @@
 
 <br>
 
-> [Nest](https://github.com/nestjs/nest) NestJS 是运行在服务端的一个 JS 框架。它运行时是 JavaScript，编程时使用TypeScript, 是结合灵活性、可扩展性的框架。并且结合了面向对象编程(OOP)、函数式编程(FP)和函数响应式编程(FRP)
-
+> [Nest](https://github.com/nestjs/nest) NestJS 是一个基于 TypeScript 的松散耦合的 Node.js 框架，它以模块化方式组织、结构化并加以管理应用程序的代码。
 <br>
 
-> [ChatGPT](https://openai.com/) ChatGPT 是一种基于递归神经网络（RNN）的自然语言处理（NLP）技术，用于模仿人与人之间的对话行为
+> [ChatGPT](https://openai.com/) ChatGPT是一种基于预训练的聊天对话机器人技术，它可以快速交流，模仿真实对话的能力，并且对话准确率极高。ChatGPT使用预训练文本语料数据生成型的神经网络模型来处理不同的对话内容，并针对不同的输入产生有意义的、有关联的回答输出
 
 
 ## Installation

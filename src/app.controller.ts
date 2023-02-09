@@ -7,6 +7,6 @@ export class AppController {
 
   @Get('chat')
   getChat(@Query('message') message): unknown {
-      return this.appService.getChatService(message);
+    return this.appService.getChatService(message);
   }
 }
