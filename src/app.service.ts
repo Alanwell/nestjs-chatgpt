@@ -1,8 +1,10 @@
-import { Injectable } from '@nestjs/common';
+import { Injectable, Logger } from '@nestjs/common';
 import { Configuration, OpenAIApi } from 'openai';
 
 @Injectable()
 export class AppService {
+  private readonly logger = new Logger(AppService.name);
+
   async getChatService(message: string): Promise<unknown> {
     console.log(process.env.OPENAI_API_KEY);
     console.log(message);
@@ -22,6 +24,7 @@ export class AppService {
         presence_penalty: 0.6,
       });
       console.log(completion.data);
+      this.logger.log('success');
       return {
         msg: 'success',
         code: '200',
@@ -32,6 +35,7 @@ export class AppService {
         },
       };
     } catch (error) {
+      this.logger.error('error');
       if (error.response) {
         return {
           msg: 'error',
